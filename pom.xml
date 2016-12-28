@@ -438,7 +438,7 @@
                             <user>${sap.cloud.username}</user>
                             <password>${sap.cloud.password}</password>
                             <source>${project.build.directory}/${project.artifactId}.war</source>
-                            <synchronous>true</synchronous>
+                            <synchronous>true</synchronous>a
                             <consoleHttpProxyHost>${proxy.host}</consoleHttpProxyHost>
                             <consoleHttpProxyPort>${proxy.port}</consoleHttpProxyPort>
                             <consoleHttpsProxyHost>${proxy.host}</consoleHttpsProxyHost>
